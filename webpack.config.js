@@ -1,7 +1,7 @@
 module.exports = {
   entry: './components/filterableTable.jsx',
   output: {
-    path: '/Users/atheg/Desktop/redux_workshop/filterable_table',
+    path: __dirname,
     filename: 'bundle.js',
   },
   module: {
